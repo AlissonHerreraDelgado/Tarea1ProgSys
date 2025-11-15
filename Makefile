@@ -16,4 +16,4 @@ productos.o: productos.c productos.h
 	$(CC) $(CFLAGS) -c productos.c
 
 clean:
-	rm -f *.o tienda
+	rm tienda *.o
